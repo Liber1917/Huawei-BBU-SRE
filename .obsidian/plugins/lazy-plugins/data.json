@@ -1,0 +1,59 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "enableDependencies": false,
+    "plugins": {
+      "obsidian-git": {
+        "startupType": "instant"
+      },
+      "omnisearch": {
+        "startupType": "disabled"
+      },
+      "pkmer": {
+        "startupType": "instant"
+      },
+      "music-code-blocks": {
+        "startupType": "disabled"
+      },
+      "card-board": {
+        "startupType": "instant"
+      },
+      "code-emitter": {
+        "startupType": "disabled"
+      },
+      "creases": {
+        "startupType": "instant"
+      },
+      "obsidian-custom-frames": {
+        "startupType": "disabled"
+      },
+      "obsidian-link-embed": {
+        "startupType": "disabled"
+      },
+      "media-extended": {
+        "startupType": "instant"
+      },
+      "obsidian-memory-game": {
+        "startupType": "disabled"
+      },
+      "obsidoom": {
+        "startupType": "disabled"
+      },
+      "open-in-terminal": {
+        "startupType": "disabled"
+      },
+      "shiki-highlighter": {
+        "startupType": "instant"
+      },
+      "vscode-editor": {
+        "startupType": "instant"
+      }
+    }
+  }
+}

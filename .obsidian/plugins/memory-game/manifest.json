@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-memory-game",
+    "name": "Memory Game",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "small games for training concentration and relaxation, including Schulte Table and Color Word Game",
+    "author": "Lin Qingxuan",
+    "authorUrl": "",
+    "isDesktopOnly": false
+} 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C语言/Embedded OS自修目录.md",
+                "file": "C语言/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Embedded OS自修目录"
+              "title": "README"
             }
           }
         ]
@@ -223,7 +223,7 @@
   },
   "active": "5529d731a507d8bf",
   "lastOpenFiles": [
-    "C语言/Embedded OS自修目录.md",
+    "C语言/README.md",
     "media-lib/index.base",
     "media-lib/bilibili BV1opAfzpEf9.md",
     "media-lib",

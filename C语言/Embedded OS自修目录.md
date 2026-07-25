@@ -1,0 +1,11 @@
+> 主要工作围绕Linux/Unix 系统展开
+
+## 参考材料
+按照惯例，参考资料分为几类：
+
+| 百科全书式                                                                                                                                                                                                            | 实操练习式                                                                                                                                                | 仓库                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 即用即查                                                                                                                                                                                                             | 业务相关                                                                                                                                                 | 产品/工程                                                               |
+| [Linux-UNIX系统编程手册(上下册合集) - Anna’s Archive](https://annas-archive.gl/md5/5651b0e61c721dcfbfca631dff9b5c0a) <br>[Source Code of the Programs in The Linux Programming Interface](https://github.com/arnoldlu/tlpi) | [CS:APP3e, Bryant and O'Hallaron](https://csapp.cs.cmu.edu/3e/labs.html)<br>[个人整理的《深入理解计算机系统》中文电子版（原书第 3 版）与实验材料](https://github.com/Hansimov/csapp) | [Linux Source Code](https://elixir.bootlin.com/linux/v7.1.4/source) |
+|                                                                                                                                                                                                                  | [Agentic AI 时代的操作系统课](https://www.bilibili.com/video/BV1opAfzpEf9)<br>[操作系统原理 (2025 春季学期)](https://jyywiki.cn/OS/2025/)<br>                          |                                                                     |
+

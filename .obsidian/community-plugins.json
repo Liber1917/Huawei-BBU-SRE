@@ -1,14 +1,18 @@
 [
   "obsidian-git",
-  "pkmer",
   "lazy-plugins",
   "card-board",
   "creases",
   "shiki-highlighter",
   "vscode-editor",
   "media-extended",
-  "obsidian-link-embed",
-  "open-in-terminal",
-  "obsidian-memory-game",
-  "obsidian-custom-frames"
+  "obsidian-excalidraw-plugin",
+  "editing-toolbar",
+  "easy-typing-obsidian",
+  "omnisearch",
+  "optimize-canvas-connections",
+  "quickadd",
+  "tldraw",
+  "obsidian-version-history-diff",
+  "pkmer"
 ]

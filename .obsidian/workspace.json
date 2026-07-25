@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e99c35c47e4900c",
+        "id": "f99ae95cfb908aa0",
         "type": "tabs",
         "children": [
           {
-            "id": "d1584da04ca67f3d",
+            "id": "d202bff32fc5444b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -72,6 +72,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
+            }
+          },
+          {
+            "id": "1b074c033cbc19c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
             }
           }
         ]
@@ -196,14 +206,17 @@
       "card-board:CardBoard": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "omnisearch:Omnisearch": false,
-      "tldraw:Create new tldrawing": false
+      "tldraw:Create new tldrawing": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "d1584da04ca67f3d",
+  "active": "d202bff32fc5444b",
   "lastOpenFiles": [
+    "未命名",
     "README.md",
-    "配置测试.md",
     "未命名.base",
+    "2026-07-25.md",
+    "配置测试.md",
     "media-lib/index.base",
     "media-lib",
     "Excalidraw/Drawing 2026-07-25 22.17.31.excalidraw.md",

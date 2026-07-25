@@ -1,1 +1,7 @@
-{}
+{
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "Times New Roman",
+  "textFontFamily": "Times New Roman",
+  "baseFontSizeAction": true,
+  "baseFontSize": 21
+}

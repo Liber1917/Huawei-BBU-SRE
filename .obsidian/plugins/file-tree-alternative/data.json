@@ -10,7 +10,7 @@
   "excludedExtensions": "",
   "hideAttachments": false,
   "attachmentsFolderName": "attachments",
-  "folderIcon": "default",
+  "folderIcon": "icomoon",
   "folderCount": true,
   "folderCountOption": "notes",
   "evernoteView": "Vertical",
@@ -25,5 +25,5 @@
   "folderNote": false,
   "deleteFileOption": "trash",
   "showFileNameAsFullPath": false,
-  "bookmarksEvents": false
+  "bookmarksEvents": true
 }

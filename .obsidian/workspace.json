@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded OS/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
@@ -84,7 +84,8 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,6 +192,16 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "0eabe7b088570dd7",
+            "type": "leaf",
+            "state": {
+              "type": "schulte-table-view",
+              "state": {},
+              "icon": "target",
+              "title": "注意力训练"
+            }
           }
         ],
         "currentTab": 5
@@ -222,11 +233,11 @@
       "open-vscode:VS Code": false
     }
   },
-  "active": "358b08347eff8bf1",
+  "active": "1b074c033cbc19c1",
   "lastOpenFiles": [
+    "Embedded OS/README.md",
     "Embedded OS/CSAPP/README.md",
     "Embedded OS/OS/README.md",
-    "Embedded OS/README.md",
     "README.md",
     "C语言/hello.c",
     "未命名.md",

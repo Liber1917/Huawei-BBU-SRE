@@ -4,7 +4,6 @@
   "card-board",
   "creases",
   "shiki-highlighter",
-  "vscode-editor",
   "media-extended",
   "obsidian-excalidraw-plugin",
   "editing-toolbar",
@@ -17,5 +16,6 @@
   "pkmer",
   "file-tree-alternative",
   "typewriter-mode",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "open-vscode"
 ]

@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "BombLab 执行记录"
             }
+          },
+          {
+            "id": "b28c1b842727161d",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://arthals.ink/blog/bomb-lab#%E5%AE%89%E5%85%A8%E5%8C%96%E7%82%B8%E5%BC%B9",
+                "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink"
+            }
           }
         ]
       }
@@ -234,8 +248,8 @@
   },
   "active": "9a9e3d1eaac2fca3",
   "lastOpenFiles": [
-    "Embedded OS/CSAPP/CHEATSHEET.pdf",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
+    "Embedded OS/CSAPP/CHEATSHEET.pdf",
     "Embedded OS/CSAPP/gdb调试.md",
     "Embedded OS/README.md",
     "Embedded OS/CSAPP/README.md",

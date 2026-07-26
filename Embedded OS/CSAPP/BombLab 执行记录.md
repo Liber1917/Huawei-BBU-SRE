@@ -23,3 +23,6 @@ b phase_5
 b phase_6
 
 ```
+
+#### 阅读机器码
+[第 3 章：程序的机器级表示 | 深入理解计算机系统（CSAPP）](https://hansimov.gitbook.io/csapp/part1/ch03-machine-level-representing-of-programs)

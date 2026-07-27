@@ -48,9 +48,22 @@
               "icon": "globe-2",
               "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink"
             }
+          },
+          {
+            "id": "d58104072acfbf13",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://pwndbg.re/stable/setup/",
+                "title": "Setup - Documentation",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Setup - Documentation"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,12 +125,22 @@
               "icon": "sheets-in-box",
               "title": "File Tree"
             }
+          },
+          {
+            "id": "77946e4468c38c32",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "6bd63bcf99b43ac8",
@@ -250,23 +273,23 @@
       "obsidian-git:Open Git source control": false,
       "media-extended:打开媒体库": false,
       "media-extended:打开媒体快速切换器": false,
-      "pkmer:Open Pkmer Market": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "tldraw:Create new tldrawing": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "open-vscode:VS Code": false,
+      "pkmer:Open Pkmer Market": false,
       "card-board:CardBoard": false
     }
   },
-  "active": "9fba222fd05fe39a",
+  "active": "9a9e3d1eaac2fca3",
   "lastOpenFiles": [
-    "Embedded OS/CSAPP/gdb调试.md",
     "Embedded OS/CSAPP/README.md",
+    "Embedded OS/CSAPP/gdb调试.md",
+    "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
     "Embedded OS/CSAPP/bomblab.pdf",
     "Embedded OS/CSAPP/CSAPP-3th-ZH-OCR.pdf",
-    "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/CHEATSHEET.pdf",
     "Embedded OS/README.md",
     "README.md",

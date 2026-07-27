@@ -4,6 +4,8 @@ Bootstrap 参考：[更适合北大宝宝体质的 Bomb Lab 踩坑记](https://a
 
 ---
 ### 反汇编调试
+#### 环境限制
+`glibc` 库 `/lib64/ld-linux-x86-64.so.2` 是必须要的，故而选择 debian 系列环境。
 #### 准备工作
 `bomb.c` 可以 `read_line()` 读取一行输入 ，故而 `touch solution.txt` 以免重复输入。
 由于 Windows 下 VSCode 采用了 Windows 换行符 `\r\n`，我们可以在右下角将 `CRLF` 改为 `LF`。也可以 `dos2unix solution.txt`。

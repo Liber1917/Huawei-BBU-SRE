@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded OS/CSAPP/BombLab 执行记录.md",
+                "file": "Embedded OS/CSAPP/gdb调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BombLab 执行记录"
+              "title": "gdb调试"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "Setup - Documentation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -282,12 +283,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "9a9e3d1eaac2fca3",
+  "active": "9fba222fd05fe39a",
   "lastOpenFiles": [
-    "Embedded OS/CSAPP/README.md",
     "Embedded OS/CSAPP/gdb调试.md",
-    "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
+    "Embedded OS/CSAPP/README.md",
+    "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/bomblab.pdf",
     "Embedded OS/CSAPP/CSAPP-3th-ZH-OCR.pdf",
     "Embedded OS/CSAPP/CHEATSHEET.pdf",

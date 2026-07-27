@@ -8,14 +8,13 @@
   "obsidian-excalidraw-plugin",
   "editing-toolbar",
   "easy-typing-obsidian",
-  "omnisearch",
   "optimize-canvas-connections",
   "quickadd",
   "tldraw",
   "obsidian-version-history-diff",
-  "pkmer",
   "file-tree-alternative",
   "typewriter-mode",
   "table-editor-obsidian",
-  "open-vscode"
+  "open-vscode",
+  "pkmer"
 ]

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded OS/CSAPP/README.md",
+                "file": "Embedded OS/CSAPP/gdb调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "gdb调试"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,8 +228,8 @@
             "state": {
               "type": "schulte-table-view",
               "state": {},
-              "icon": "target",
-              "title": "注意力训练"
+              "icon": "lucide-ghost",
+              "title": "schulte-table-view"
             }
           }
         ],
@@ -243,30 +244,27 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:新建代码文件": false,
       "media-extended:打开媒体库": false,
       "media-extended:打开媒体快速切换器": false,
       "pkmer:Open Pkmer Market": false,
-      "card-board:CardBoard": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false,
       "tldraw:Create new tldrawing": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "open-vscode:VS Code": false
+      "open-vscode:VS Code": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "9a9e3d1eaac2fca3",
+  "active": "9fba222fd05fe39a",
   "lastOpenFiles": [
+    "Embedded OS/CSAPP/README.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
     "Embedded OS/CSAPP/bomblab.pdf",
     "Embedded OS/CSAPP/gdb调试.md",
-    "Embedded OS/CSAPP/README.md",
     "Embedded OS/CSAPP/CSAPP-3th-ZH-OCR.pdf",
     "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/CHEATSHEET.pdf",

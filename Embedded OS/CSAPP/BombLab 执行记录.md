@@ -32,20 +32,16 @@ b phase_6
 #### phase_1
 根据 `bomb.c`，先简单 `b phase_1` 设置断点，然后跑。
 ```
-│B+ 0x400ee0 <phase_1>      sub    rsp,0x8                                │                      
-│  >0x400ee4 <phase_1+4>    mov    esi,0x402400                           │
-│   0x400ee9 <phase_1+9>    call   0x401338 <strings_not_equal>           │
-│   0x400eee <phase_1+14>   test   eax,eax                                │
-│   0x400ef0 <phase_1+16>   je     0x400ef7 <phase_1+23>                  │
-│   0x400ef2 <phase_1+18>   call   0x40143a <explode_bomb>                │
-│   0x400ef7 <phase_1+23>   add    rsp,0x8                                │
-│   0x400efb <phase_1+27>   ret                                           │
-│   0x400efc <phase_2>      push   rbp                                    │
-│   0x400efd <phase_2+1>    push   rbx                                    │
-│   0x400efe <phase_2+2>    sub    rsp,0x28                               │
-│   0x400f02 <phase_2+6>    mov    rsi,rsp                                │
-│   0x400f05 <phase_2+9>    call   0x40145c <read_six_numbers>            │
-└─────────────────────────────────────────────────────────────────────────┘
+0000000000400ee0 <phase_1>:
+400ee0: 48 83 ec 08 subq $0x8, %rsp
+400ee4: be 00 24 40 00 movl $0x402400, %esi # imm = 0x402400
+400ee9: e8 4a 04 00 00 callq 0x401338 <strings_not_equal>
+400eee: 85 c0 testl %eax, %eax
+400ef0: 74 05 je 0x400ef7 <phase_1+0x17>
+400ef2: e8 43 05 00 00 callq 0x40143a <explode_bomb>
+400ef7: 48 83 c4 08 addq $0x8, %rsp
+400efb: c3 retq
+└───────────────────────────────────────────────────────────────┘
 
 pwndbg> x/s 0x402400
 0x402400:       "Border relations with Canada have never been better."

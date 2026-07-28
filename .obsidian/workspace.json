@@ -42,15 +42,14 @@
               "type": "webviewer",
               "state": {
                 "url": "https://arthals.ink/blog/bomb-lab#phase-2",
-                "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink",
+                "title": "data:text/plain,",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink"
+              "title": "data:text/plain,"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -270,8 +269,13 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "9fba222fd05fe39a",
+  "active": "9a9e3d1eaac2fca3",
   "lastOpenFiles": [
+    "Embedded OS/CSAPP/x86-64 Assembly.md",
+    "x86-64-reference.pdf",
+    "Embedded OS/CSAPP/x86-64-reference.pdf",
+    "Embedded OS/CSAPP/未确认 47210.crdownload",
+    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
     "Embedded OS/CSAPP/gdb调试.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
     "Embedded OS/CSAPP/README.md",
@@ -284,10 +288,6 @@
     "CHEATSHEET.pdf",
     "bomblab.pdf",
     "gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/未确认 549178.crdownload",
-    "Embedded OS/CSAPP/未确认 936151.crdownload",
-    "Embedded OS/CSAPP/未确认 788036.crdownload",
     "Embedded OS/OS/README.md",
     "未命名.md",
     "Embedded OS/未命名.md",

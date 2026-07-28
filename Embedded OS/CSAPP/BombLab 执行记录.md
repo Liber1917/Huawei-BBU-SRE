@@ -28,7 +28,8 @@ b phase_6
 
 #### 阅读机器码
 [第 3 章：程序的机器级表示 | 深入理解计算机系统（CSAPP）](https://hansimov.gitbook.io/csapp/part1/ch03-machine-level-representing-of-programs)
-
+==建议阅读 pdf 完整版==
+S
 #### phase_1
 根据 `bomb.c`，先简单 `b phase_1` 设置断点，然后跑。
 ```
@@ -92,3 +93,4 @@ rsp+20: 输入的第 6 个数
 ```
 #### phase_3
 这个 phase 是一个较为复杂的分支控制函数，要想不执行 `explode_bomb`，可以为所有 `explode_bomb` 打上断点，然后去 `bomb.asm` 中排查不触发的调用栈，所以就可以找 `cmpl` 和 `jg` 这种“判断-跳转”对。
+分支过多，后来发现这是 `switch` 语句。在[[x86-64 Assembly]]补充了相关信息。

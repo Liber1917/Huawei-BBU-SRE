@@ -8,7 +8,7 @@ Bootstrap 参考：[更适合北大宝宝体质的 Bomb Lab 踩坑记](https://a
 `glibc` 库 `/lib64/ld-linux-x86-64.so.2` 是必须要的，故而选择 debian 系列环境。如果你的电脑不支持，可以参考[[在MacOS运行BombLab]]。
 #### 准备工作
 `bomb.c` 可以 `read_line()` 读取一行输入 ，故而 `touch solution.txt` 以免重复输入。
-由于 Windows 下 VSCode 采用了 Windows 换行符 `\r\n`，我们可以在右下角将 `CRLF` 改为 `LF`。也可以 `dos2unix solution.txt`。
+由于 Windows 下 VSCode 采用了 Windows 换行符 `\r\n`，我们可以在右下角将 `CRLF` 改为 `LF`。也可以 `dos2unix solution.txt`。注意每写完一个 phase 的答案后要换行。
 
  `bomb.c` 中并没有告诉我们该输入什么以免爆炸，所以采用 `objdump -d ./bomb > bomb.asm` 进行反汇编。
  
@@ -48,6 +48,7 @@ pwndbg> x/s 0x402400
 ```
 这里发现了 `strings_not_equal`，所以直接使用上述命令取值。
 #### phase_2
+这是一段循环控制函数
 ```
 0000000000400efc <phase_2>:
 0x400efc: push   %rbp          ; 保存调用者的 rbp
@@ -90,3 +91,4 @@ rsp+20: 输入的第 6 个数
 0x400f42: ret                  ; 返回
 ```
 #### phase_3
+这个 phase 是一个较为复杂的分支控制函数，要想不执行 `explode_bomb`，可以为所有 `explode_bomb` 打上断点，然后去 `bomb.asm` 中排查不触发的调用栈，所以就可以找 `cmpl` 和 `jg` 这种“判断-跳转”对。

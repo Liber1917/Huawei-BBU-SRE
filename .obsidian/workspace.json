@@ -11,14 +11,12 @@
             "id": "9a9e3d1eaac2fca3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Embedded OS/CSAPP/gdb调试.md",
-                "mode": "source",
-                "source": false
+                "file": "Embedded OS/CSAPP/gdbnotes-x86-64.pdf"
               },
-              "icon": "lucide-file",
-              "title": "gdb调试"
+              "icon": "lucide-file-text",
+              "title": "gdbnotes-x86-64"
             }
           },
           {
@@ -34,22 +32,9 @@
               "icon": "lucide-file",
               "title": "BombLab 执行记录"
             }
-          },
-          {
-            "id": "b28c1b842727161d",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://arthals.ink/blog/bomb-lab#phase-2",
-                "title": "data:text/plain,",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "data:text/plain,"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -269,16 +254,17 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "9a9e3d1eaac2fca3",
+  "active": "9fba222fd05fe39a",
   "lastOpenFiles": [
+    "Embedded OS/CSAPP/BombLab 执行记录.md",
+    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
+    "Embedded OS/CSAPP/gdb调试.md",
     "Embedded OS/CSAPP/x86-64 Assembly.md",
+    "Embedded OS/CSAPP/在MacOS运行BombLab.md",
+    "Embedded OS/CSAPP/README.md",
     "x86-64-reference.pdf",
     "Embedded OS/CSAPP/x86-64-reference.pdf",
     "Embedded OS/CSAPP/未确认 47210.crdownload",
-    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/gdb调试.md",
-    "Embedded OS/CSAPP/BombLab 执行记录.md",
-    "Embedded OS/CSAPP/README.md",
     "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/bomblab.pdf",
     "Embedded OS/CSAPP/CSAPP-3th-ZH-OCR.pdf",

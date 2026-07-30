@@ -29,7 +29,6 @@ b phase_6
 #### 阅读机器码
 [第 3 章：程序的机器级表示 | 深入理解计算机系统（CSAPP）](https://hansimov.gitbook.io/csapp/part1/ch03-machine-level-representing-of-programs)
 ==建议阅读 pdf 完整版==
-S
 #### phase_1
 根据 `bomb.c`，先简单 `b phase_1` 设置断点，然后跑。
 ```

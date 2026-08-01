@@ -228,3 +228,44 @@ rsp+20: 输入的第 6 个数
 ; ❌ x=2: mid=1 时 x>1 → 走右分支 → +1 → 返回值≥1 → 炸
 ```
 #### phase_5
+```
+0000000000401062 <phase_5>:
+401062: 53 pushq %rbx
+401063: 48 83 ec 20 subq $0x20, %rsp
+401067: 48 89 fb movq %rdi, %rbx # 输入串放置到rbx
+40106a: 64 48 8b 04 25 28 00 00 00 movq %fs:0x28, %rax # [金丝雀-开始] 从 TLS 取出金丝雀（随机数）→ rax
+401073: 48 89 44 24 18 movq %rax, 0x18(%rsp) # [金丝雀] 副本存到栈上 rsp+0x18（紧挨输出缓冲区，当哨兵）
+401078: 31 c0 xorl %eax, %eax # eax=0
+40107a: e8 9c 02 00 00 callq 0x40131b <string_length>
+40107f: 83 f8 06 cmpl $0x6, %eax # eax=0x6，答案是6个字符
+401082: 74 4e je 0x4010d2 <phase_5+0x70>
+401084: e8 b1 03 00 00 callq 0x40143a <explode_bomb>
+401089: eb 47 jmp 0x4010d2 <phase_5+0x70>
+40108b: 0f b6 0c 03 movzbl (%rbx,%rax), %ecx # ecx=rbx+rax,ecx为输入的地址
+40108f: 88 0c 24 movb %cl, (%rsp) # cl=bl
+401092: 48 8b 14 24 movq (%rsp), %rdx # bl
+401096: 83 e2 0f andl $0xf, %edx # edx=bl and 0xf，输入做掩码
+401099: 0f b6 92 b0 24 40 00 movzbl 0x4024b0(%rdx), %edx # 0x4024b0+rdx,0x4024b0 "maduiersnfotvbyl..."
+4010a0: 88 54 04 10 movb %dl, 0x10(%rsp,%rax) # 0x10+rsp+rax
+4010a4: 48 83 c0 01 addq $0x1, %rax # rax+=1
+4010a8: 48 83 f8 06 cmpq $0x6, %rax
+4010ac: 75 dd jne 0x40108b <phase_5+0x29> # rax等于6跳出循环
+4010ae: c6 44 24 16 00 movb $0x0, 0x16(%rsp) # 0x16+rsp，此时是输入字符末尾
+4010b3: be 5e 24 40 00 movl $0x40245e, %esi # imm = 0x40245E，flyers
+4010b8: 48 8d 7c 24 10 leaq 0x10(%rsp), %rdi # 输入字符开头掩码后为9，15，14，5，6，7
+4010bd: e8 76 02 00 00 callq 0x401338 <strings_not_equal>
+4010c2: 85 c0 testl %eax, %eax # eax==0
+4010c4: 74 13 je 0x4010d9 <phase_5+0x77> # 这里要走到
+4010c6: e8 6f 03 00 00 callq 0x40143a <explode_bomb>
+4010cb: 0f 1f 44 00 00 nopl (%rax,%rax) # 空操作
+4010d0: eb 07 jmp 0x4010d9 <phase_5+0x77> # 这里要走到
+4010d2: b8 00 00 00 00 movl $0x0, %eax # eax=0
+4010d7: eb b2 jmp 0x40108b <phase_5+0x29>
+4010d9: 48 8b 44 24 18 movq 0x18(%rsp), %rax # [金丝雀-检查] 取回栈上副本
+4010de: 64 48 33 04 25 28 00 00 00 xorq %fs:0x28, %rax # [金丝雀] 与 TLS 原值异或：相同→0，被改→非0
+4010e7: 74 05 je 0x4010ee <phase_5+0x8c> # [金丝雀] ZF=1（副本完好）→ 正常返回
+4010e9: e8 42 fa ff ff callq 0x400b30 <__stack_chk_fail@plt> # [金丝雀] 副本被改→栈溢出→报警终止
+4010ee: 48 83 c4 20 addq $0x20, %rsp
+4010f2: 5b popq %rbx
+4010f3: c3 retq
+```

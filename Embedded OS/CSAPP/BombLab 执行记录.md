@@ -92,4 +92,45 @@ rsp+20: 输入的第 6 个数
 ```
 #### phase_3
 这个 phase 是一个较为复杂的分支控制函数，要想不执行 `explode_bomb`，可以为所有 `explode_bomb` 打上断点，然后去 `bomb.asm` 中排查不触发的调用栈，所以就可以找 `cmpl` 和 `jg` 这种“判断-跳转”对。
-分支过多，后来发现这是 `switch` 语句。在[[x86-64 Assembly]]补充了相关信息。
+分支过多，后来发现这是 `switch` 语句。在 [[x86-64 Assembly]] 补充了相关信息。
+
+这里 `callq 0x400bf0 <__isoc99_sscanf@plt>` 可以上网搜索 [sscanf - Linux manual page](https://man7.org/linux/man-pages/man3/sscanf.3.html)，在本地难找到。`x/s 0x4025cf` 可以检查到它的第二个入参，亦即 `"%d %d"`。
+```
+0000000000400f43 <phase_3>:
+400f43: 48 83 ec 18 subq $0x18, %rsp
+400f47: 48 8d 4c 24 0c leaq 0xc(%rsp), %rcx
+400f4c: 48 8d 54 24 08 leaq 0x8(%rsp), %rdx
+400f51: be cf 25 40 00 movl $0x4025cf, %esi # imm = 0x4025CF
+400f56: b8 00 00 00 00 movl $0x0, %eax # 用 %al 记录浮点参数
+400f5b: e8 90 fc ff ff callq 0x400bf0 <__isoc99_sscanf@plt>
+400f60: 83 f8 01 cmpl $0x1, %eax # 根据eax-1的结果更新EFLAGS： info registers eflags
+400f63: 7f 05 jg 0x400f6a <phase_3+0x27> # [ZF == 0 且 SF == OF]有符号大于，故输入个数要大于1
+400f65: e8 d0 04 00 00 callq 0x40143a <explode_bomb>
+400f6a: 83 7c 24 08 07 cmpl $0x7, 0x8(%rsp) # 跳到这里，0x8(%rsp)是传入的第一个参数
+400f6f: 77 3c ja 0x400fad <phase_3+0x6a> # [false]无符号小于，否则bomb
+400f71: 8b 44 24 08 movl 0x8(%rsp), %eax # 执行，移动rsp上第一个输入数，放入eax
+400f75: ff 24 c5 70 24 40 00 jmpq *0x402470(,%rax,8) # switch间接跳转，*(0x402470+($rax)*8)，由于rax为0~7，故用x/8gx
+400f7c: b8 cf 00 00 00 movl $0xcf, %eax # 输入0: 207
+400f81: eb 3b jmp 0x400fbe <phase_3+0x7b>
+400f83: b8 c3 02 00 00 movl $0x2c3, %eax # imm = 0x2C3 输入2: 707
+400f88: eb 34 jmp 0x400fbe <phase_3+0x7b>
+400f8a: b8 00 01 00 00 movl $0x100, %eax # imm = 0x100 输入3: 256
+400f8f: eb 2d jmp 0x400fbe <phase_3+0x7b>
+400f91: b8 85 01 00 00 movl $0x185, %eax # imm = 0x185 输入4:
+400f96: eb 26 jmp 0x400fbe <phase_3+0x7b>
+400f98: b8 ce 00 00 00 movl $0xce, %eax
+400f9d: eb 1f jmp 0x400fbe <phase_3+0x7b>
+400f9f: b8 aa 02 00 00 movl $0x2aa, %eax # imm = 0x2AA
+400fa4: eb 18 jmp 0x400fbe <phase_3+0x7b>
+400fa6: b8 47 01 00 00 movl $0x147, %eax # imm = 0x147
+400fab: eb 11 jmp 0x400fbe <phase_3+0x7b>
+400fad: e8 88 04 00 00 callq 0x40143a <explode_bomb>
+400fb2: b8 00 00 00 00 movl $0x0, %eax
+400fb7: eb 05 jmp 0x400fbe <phase_3+0x7b>
+400fb9: b8 37 01 00 00 movl $0x137, %eax # imm = 0x137
+400fbe: 3b 44 24 0c cmpl 0xc(%rsp), %eax # 这里必须相等
+400fc2: 74 05 je 0x400fc9 <phase_3+0x86> # 这是正确的出口
+400fc4: e8 71 04 00 00 callq 0x40143a <explode_bomb>
+400fc9: 48 83 c4 18 addq $0x18, %rsp
+400fcd: c3 retq
+```

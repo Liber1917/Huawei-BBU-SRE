@@ -269,3 +269,4 @@ rsp+20: 输入的第 6 个数
 4010f2: 5b popq %rbx
 4010f3: c3 retq
 ```
+#### phase_6

@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "0875d823f4585b96",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+            }
+          },
+          {
             "id": "b28c1b842727161d",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -260,10 +274,11 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "9fba222fd05fe39a",
+  "active": "0875d823f4585b96",
   "lastOpenFiles": [
-    "Embedded OS/CSAPP/CHEATSHEET.pdf",
+    "conflict-files-obsidian-git.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
+    "Embedded OS/CSAPP/CHEATSHEET.pdf",
     "Embedded OS/CSAPP/gdb调试.md",
     "x86-64-reference.pdf",
     "Embedded OS/CSAPP/在MacOS运行BombLab.md",

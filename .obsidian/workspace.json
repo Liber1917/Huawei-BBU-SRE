@@ -113,7 +113,8 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -250,7 +251,6 @@
       "obsidian-git:Open Git source control": false,
       "media-extended:打开媒体库": false,
       "media-extended:打开媒体快速切换器": false,
-      "pkmer:Open Pkmer Market": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "tldraw:Create new tldrawing": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,

@@ -108,12 +108,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6bd63bcf99b43ac8",
@@ -244,8 +243,6 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:打开媒体库": false,
-      "media-extended:打开媒体快速切换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "tldraw:Create new tldrawing": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,

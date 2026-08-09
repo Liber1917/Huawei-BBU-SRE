@@ -11,14 +11,12 @@
             "id": "9a9e3d1eaac2fca3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Embedded OS/CSAPP/BombLab 执行记录.md",
-                "mode": "source",
-                "source": false
+                "file": "Embedded OS/CSAPP/gdbnotes-x86-64.pdf"
               },
-              "icon": "lucide-file",
-              "title": "BombLab 执行记录"
+              "icon": "lucide-file-text",
+              "title": "gdbnotes-x86-64"
             }
           },
           {
@@ -27,44 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded OS/CSAPP/BombLab 执行记录.md",
+                "file": "Embedded OS/CSAPP/在MacOS运行BombLab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BombLab 执行记录"
-            }
-          },
-          {
-            "id": "0875d823f4585b96",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
-            }
-          },
-          {
-            "id": "b28c1b842727161d",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://arthals.ink/blog/bomb-lab#phase-2",
-                "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "更适合北大宝宝体质的 Bomb Lab 踩坑记 • Arthals' ink"
+              "title": "在MacOS运行BombLab"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,13 +96,23 @@
               "icon": "sheets-in-box",
               "title": "File Tree"
             }
+          },
+          {
+            "id": "77946e4468c38c32",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "6bd63bcf99b43ac8",
@@ -263,38 +243,36 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "media-extended:打开媒体库": false,
-      "media-extended:打开媒体快速切换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "tldraw:Create new tldrawing": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "open-vscode:VS Code": false,
-      "card-board:CardBoard": false,
-      "pkmer:Open Pkmer Market": false
+      "pkmer:Open Pkmer Market": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "0875d823f4585b96",
+  "active": "9fba222fd05fe39a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
-    "Embedded OS/CSAPP/CHEATSHEET.pdf",
+    "conflict-files-obsidian-git.md",
+    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
     "Embedded OS/CSAPP/gdb调试.md",
-    "x86-64-reference.pdf",
-    "Embedded OS/CSAPP/在MacOS运行BombLab.md",
-    "Embedded OS/CSAPP/x86-64-reference.pdf",
-    "Embedded OS/CSAPP/x86-64 Assembly.md",
     "Embedded OS/CSAPP/README.md",
+    "Embedded OS/CSAPP/x86-64 Assembly.md",
+    "Embedded OS/CSAPP/在MacOS运行BombLab.md",
+    "x86-64-reference.pdf",
+    "Embedded OS/CSAPP/x86-64-reference.pdf",
+    "Embedded OS/CSAPP/未确认 47210.crdownload",
+    "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "Embedded OS/CSAPP/bomblab.pdf",
     "Embedded OS/CSAPP/CSAPP-3th-ZH-OCR.pdf",
-    "Embedded OS/CSAPP/调试工具：pwndbg.md",
+    "Embedded OS/CSAPP/CHEATSHEET.pdf",
     "Embedded OS/README.md",
     "README.md",
     "CHEATSHEET.pdf",
     "bomblab.pdf",
     "gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/未确认 549178.crdownload",
     "Embedded OS/OS/README.md",
     "未命名.md",
     "Embedded OS/未命名.md",

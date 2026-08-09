@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Embedded OS/CSAPP/x86-64 Assembly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "x86-64 Assembly"
             }
           }
         ]
@@ -232,6 +232,11 @@
   },
   "active": "41ebe8b2796a5a28",
   "lastOpenFiles": [
+    "x86-64-reference.pdf",
+    "README.md",
+    "雪霁梅香.jpg",
+    "个人财务/机动金体系.md",
+    "个人财务",
     "skills/weekly-report-huawei/周报邮件模板.md",
     "skills/weekly-report-huawei/技术人员周报写作指南.md",
     "skills/weekly-report-huawei/SKILL.md",
@@ -249,13 +254,10 @@
     "Embedded OS/CSAPP/gdb调试.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",
     "Embedded OS/CSAPP/CHEATSHEET.pdf",
-    "x86-64-reference.pdf",
     "Embedded OS/CSAPP/x86-64-reference.pdf",
     "Embedded OS/CSAPP/bomblab.pdf",
     "Embedded OS/CSAPP/CSAPP-3th-ZH-OCR.pdf",
     "Embedded OS/CSAPP/调试工具：pwndbg.md",
-    "README.md",
-    "CHEATSHEET.pdf",
     "未命名.md",
     "Embedded OS/未命名.md",
     "media-lib/bilibili BV1opAfzpEf9.md",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded OS/CSAPP/x86-64 Assembly.md",
+                "file": "个人财务/机动金体系.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "x86-64 Assembly"
+              "title": "机动金体系"
             }
           }
         ]
@@ -230,8 +230,9 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "f754cfbe8b4efe57",
+  "active": "b28c1b842727161d",
   "lastOpenFiles": [
+    "Embedded OS/CSAPP/x86-64 Assembly.md",
     "Hymn-October.png",
     "未确认 272816.crdownload",
     "x86-64-reference.pdf",
@@ -251,7 +252,6 @@
     "Embedded OS/OS/README.md",
     "Embedded OS/CSAPP/在MacOS运行BombLab.md",
     "conflict-files-obsidian-git.md",
-    "Embedded OS/CSAPP/x86-64 Assembly.md",
     "Embedded OS/CSAPP/README.md",
     "Embedded OS/CSAPP/gdb调试.md",
     "Embedded OS/CSAPP/BombLab 执行记录.md",

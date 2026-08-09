@@ -230,8 +230,16 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "b28c1b842727161d",
+  "active": "41ebe8b2796a5a28",
   "lastOpenFiles": [
+    "skills/weekly-report-huawei/周报邮件模板.md",
+    "skills/weekly-report-huawei/技术人员周报写作指南.md",
+    "skills/weekly-report-huawei/SKILL.md",
+    "skills/weekly-report-huawei",
+    "skills",
+    "新建文件夹",
+    "weekly-report-huawei/SKILL.md",
+    "weekly-report-huawei",
     "Embedded OS/README.md",
     "Embedded OS/OS/README.md",
     "Embedded OS/CSAPP/在MacOS运行BombLab.md",
@@ -248,10 +256,6 @@
     "Embedded OS/CSAPP/调试工具：pwndbg.md",
     "README.md",
     "CHEATSHEET.pdf",
-    "bomblab.pdf",
-    "gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/gdbnotes-x86-64.pdf",
-    "Embedded OS/CSAPP/未确认 549178.crdownload",
     "未命名.md",
     "Embedded OS/未命名.md",
     "media-lib/bilibili BV1opAfzpEf9.md",
